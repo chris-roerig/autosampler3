@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="autosampler3">
+	<schema id="com.github.chrisroerig.autosampler3" path="/com/github/chrisroerig/autosampler3/">
+	</schema>
+</schemalist>
