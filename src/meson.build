@@ -9,7 +9,7 @@ autosampler3_sources = [
 autosampler3_deps = [
   dependency('gio-2.0', version: '>= 2.50'),
   dependency('gtk+-3.0', version: '>= 3.22'),
-
+  meson.get_compiler('c').find_library('portmidi'),
   meson.get_compiler('vala').find_library('portmidi', dirs: vapi_dir),
 ]
 
@@ -24,3 +24,5 @@ executable('autosampler3', autosampler3_sources,
   vala_args: '--target-glib=2.50',  dependencies: autosampler3_deps,
   install: true,
 )
+
+

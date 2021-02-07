@@ -8,7 +8,6 @@ project('autosampler3', ['c', 'vala'],
 
 i18n = import('i18n')
 
-
 subdir('data')
 subdir('src')
 subdir('po')
